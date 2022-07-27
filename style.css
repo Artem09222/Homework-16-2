@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #2e3e4e;
+  font-family: "Mukta";
+  height: 800px;
+}
+
+.menu-text {
+  text-align: center;
+  display: block;
+  color: #e0e7ec;
+  font-size: 20px;
+  padding-top: 23px;
+  font-family: Mukta;
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 515px;
+  background-color: #38495b;
+  border-radius: 5px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 5px 0px rgba(46, 62, 78, 0.25);
+}
+
+.menu-button {
+  text-decoration: none;
+  color: #b3eada;
+  padding: 10px 20px;
+  border-radius: 9px;
+}
+
+.menu-button:hover {
+  background-color: #43bb99;
+  color: #e0e7ec;
+}
